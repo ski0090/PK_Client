@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{85425fa2-711e-4e6c-8cd6-30546b3c2c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainFrm">
+      <UniqueIdentifier>{a8f1d7d8-2bc8-419b-87a7-154801bcc207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View">
+      <UniqueIdentifier>{24e3ac67-4ca9-46b9-bb80-6d2ba0d9ce17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PK_Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="PK_ClientDoc.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="PK_ClientView.h">
+      <Filter>01.View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="PK_Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="PK_ClientDoc.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="PK_ClientView.cpp">
+      <Filter>01.View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PK_ClientDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\PK_Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PK_Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PK_Client.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
